@@ -122,8 +122,8 @@ def main():
 
     # Correctly build checkpoint paths
     script_dir = Path(__file__).parent
-    warp_checkpoint = script_dir / 'checkpoints' / 'warp_model_checkpoint.pth'
-    gen_checkpoint = script_dir / 'checkpoints' / 'gen_model_checkpoint.pth'
+    warp_checkpoint = script_dir / 'checkpoints' / 'dmvton_pf_warp.pth'
+    gen_checkpoint = script_dir / 'checkpoints' / 'dmvton_pf_gen.pth'
 
     # Hardcoded image paths from 'images' folder
     person_image_path = script_dir / 'images' / '000038_0.jpg' 
